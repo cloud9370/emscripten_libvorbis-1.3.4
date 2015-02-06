@@ -143,8 +143,8 @@ NM = /usr/bin/nm -B
 NMEDIT = 
 OBJDUMP = objdump
 OBJEXT = o
-OGG_CFLAGS = -I../libogg-1.3.2/include
-OGG_LIBS = -L../libogg-1.3.2/src/.libs -logg
+OGG_CFLAGS = -I../libogg-1.3.2.bak/include
+OGG_LIBS = ../libogg-1.3.2.bak/src/.libs -logg
 OTOOL = 
 OTOOL64 = 
 PACKAGE = libvorbis
@@ -232,9 +232,9 @@ top_build_prefix = ../
 top_builddir = ..
 top_srcdir = ..
 AUTOMAKE_OPTIONS = foreign
-INCLUDES = -I$(top_srcdir)/include -I../libogg-1.3.2/include
+INCLUDES = -I$(top_srcdir)/include -I../libogg-1.3.2.bak/include
 test_SOURCES = util.c util.h write_read.c write_read.h test.c
-test_LDADD = ../lib/libvorbisenc.la ../lib/libvorbis.la -L../libogg-1.3.2/src/.libs -logg -lm
+test_LDADD = ../lib/libvorbisenc.la ../lib/libvorbis.la ../libogg-1.3.2.bak/src/.libs -logg -lm
 all: all-am
 
 .SUFFIXES:

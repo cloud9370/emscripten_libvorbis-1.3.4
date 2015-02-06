@@ -180,7 +180,7 @@ AUTOMAKE = ${SHELL} /home/cloudchen/dev/emscripten_test_sdl_png/libvorbis-1.3.4/
 AWK = mawk
 CC = /home/cloudchen/dev/emsdk_portable/emscripten/master/emcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O2 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H
+CFLAGS = -O20 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H
 CPP = /home/cloudchen/dev/emsdk_portable/emscripten/master/emcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
@@ -221,8 +221,8 @@ NM = /usr/bin/nm -B
 NMEDIT = 
 OBJDUMP = objdump
 OBJEXT = o
-OGG_CFLAGS = -I../libogg-1.3.2/include
-OGG_LIBS = -L../libogg-1.3.2/src/.libs -logg
+OGG_CFLAGS = -I../libogg-1.3.2.bak/include
+OGG_LIBS = ../libogg-1.3.2.bak/src/.libs -logg
 OTOOL = 
 OTOOL64 = 
 PACKAGE = libvorbis
@@ -235,7 +235,7 @@ PACKAGE_VERSION = 1.3.4
 PATH_SEPARATOR = :
 PDFLATEX = 
 PKG_CONFIG = /usr/bin/pkg-config
-PROFILE = -pg -g -O2 -ffast-math -D_REENTRANT -fsigned-char
+PROFILE = -pg -g -O20 -ffast-math -D_REENTRANT -fsigned-char
 RANLIB = /home/cloudchen/dev/emsdk_portable/emscripten/master/emranlib
 SED = /bin/sed
 SET_MAKE = 
@@ -918,7 +918,7 @@ debug:
 	$(MAKE) all CFLAGS="-g -Wall -Wextra -D_REENTRANT -D__NO_MATH_INLINES -fsigned-char"
 
 profile:
-	$(MAKE) all CFLAGS="-pg -g -O2 -ffast-math -D_REENTRANT -fsigned-char"
+	$(MAKE) all CFLAGS="-pg -g -O20 -ffast-math -D_REENTRANT -fsigned-char"
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

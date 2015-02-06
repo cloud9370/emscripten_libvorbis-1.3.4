@@ -10,10 +10,10 @@ smallft.lo: smallft.c \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/compat/math.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/math.h \
   smallft.h ../include/vorbis/codec.h \
-  ../../libogg-1.3.2/include/ogg/ogg.h \
+  ../../libogg-1.3.2.bak/include/ogg/ogg.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stddef.h \
-  ../../libogg-1.3.2/include/ogg/os_types.h \
-  ../../libogg-1.3.2/include/ogg/config_types.h \
+  ../../libogg-1.3.2.bak/include/ogg/os_types.h \
+  ../../libogg-1.3.2.bak/include/ogg/config_types.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/inttypes.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stdint.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/bits/stdint.h \
@@ -48,13 +48,13 @@ smallft.h:
 
 ../include/vorbis/codec.h:
 
-../../libogg-1.3.2/include/ogg/ogg.h:
+../../libogg-1.3.2.bak/include/ogg/ogg.h:
 
 /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stddef.h:
 
-../../libogg-1.3.2/include/ogg/os_types.h:
+../../libogg-1.3.2.bak/include/ogg/os_types.h:
 
-../../libogg-1.3.2/include/ogg/config_types.h:
+../../libogg-1.3.2.bak/include/ogg/config_types.h:
 
 /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/inttypes.h:
 

@@ -1,9 +1,9 @@
 registry.lo: registry.c ../include/vorbis/codec.h \
-  ../../libogg-1.3.2/include/ogg/ogg.h \
+  ../../libogg-1.3.2.bak/include/ogg/ogg.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stddef.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h \
-  ../../libogg-1.3.2/include/ogg/os_types.h \
-  ../../libogg-1.3.2/include/ogg/config_types.h \
+  ../../libogg-1.3.2.bak/include/ogg/os_types.h \
+  ../../libogg-1.3.2.bak/include/ogg/config_types.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/inttypes.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/features.h \
   /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stdint.h \
@@ -26,15 +26,15 @@ registry.lo: registry.c ../include/vorbis/codec.h \
 
 ../include/vorbis/codec.h:
 
-../../libogg-1.3.2/include/ogg/ogg.h:
+../../libogg-1.3.2.bak/include/ogg/ogg.h:
 
 /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/stddef.h:
 
 /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h:
 
-../../libogg-1.3.2/include/ogg/os_types.h:
+../../libogg-1.3.2.bak/include/ogg/os_types.h:
 
-../../libogg-1.3.2/include/ogg/config_types.h:
+../../libogg-1.3.2.bak/include/ogg/config_types.h:
 
 /home/cloudchen/dev/emsdk_portable/emscripten/master/system/include/libc/inttypes.h:
 

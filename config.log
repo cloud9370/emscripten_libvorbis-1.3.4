@@ -522,6 +522,7 @@ config.status:1151: creating vorbis-uninstalled.pc
 config.status:1151: creating vorbisenc-uninstalled.pc
 config.status:1151: creating vorbisfile-uninstalled.pc
 config.status:1151: creating config.h
+config.status:1332: config.h is unchanged
 config.status:1380: executing depfiles commands
 config.status:1380: executing libtool commands
 
@@ -545,9 +546,9 @@ ac_cv_env_LDFLAGS_value=
 ac_cv_env_LIBS_set=
 ac_cv_env_LIBS_value=
 ac_cv_env_OGG_CFLAGS_set=set
-ac_cv_env_OGG_CFLAGS_value=-I../libogg-1.3.2/include
+ac_cv_env_OGG_CFLAGS_value=-I../libogg-1.3.2.bak/include
 ac_cv_env_OGG_LIBS_set=set
-ac_cv_env_OGG_LIBS_value='-L../libogg-1.3.2/src/.libs -logg'
+ac_cv_env_OGG_LIBS_value='../libogg-1.3.2.bak/src/.libs -logg'
 ac_cv_env_PKG_CONFIG_set=
 ac_cv_env_PKG_CONFIG_value=
 ac_cv_env_build_alias_set=
@@ -621,8 +622,8 @@ lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();
 lt_cv_sys_max_cmd_len=1572864
 lt_cv_to_host_file_cmd=func_convert_file_noop
 lt_cv_to_tool_file_cmd=func_convert_file_noop
-pkg_cv_OGG_CFLAGS=-I../libogg-1.3.2/include
-pkg_cv_OGG_LIBS='-L../libogg-1.3.2/src/.libs -logg'
+pkg_cv_OGG_CFLAGS=-I../libogg-1.3.2.bak/include
+pkg_cv_OGG_LIBS='../libogg-1.3.2.bak/src/.libs -logg'
 
 ## ----------------- ##
 ## Output variables. ##
@@ -691,8 +692,8 @@ NM='/usr/bin/nm -B'
 NMEDIT=''
 OBJDUMP='objdump'
 OBJEXT='o'
-OGG_CFLAGS='-I../libogg-1.3.2/include'
-OGG_LIBS='-L../libogg-1.3.2/src/.libs -logg'
+OGG_CFLAGS='-I../libogg-1.3.2.bak/include'
+OGG_LIBS='../libogg-1.3.2.bak/src/.libs -logg'
 OTOOL64=''
 OTOOL=''
 PACKAGE='libvorbis'
