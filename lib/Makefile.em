@@ -9,9 +9,9 @@ VORBISOBJS=mdct.o smallft.o block.o envelope.o window.o \
 	info.o floor1.o floor0.o res0.o mapping0.o \
 	registry.o codebook.o sharedbook.o lookup.o bitrate.o
 
-VORBISOFILEOBJS=vorbisfile.o
+VORBISFILEOBJS=vorbisfile.o
 
-VORBISOENCOBJS=vorbisenc.o
+VORBISENCOBJS=vorbisenc.o
 
 VORBISLIB=libvorbis.a
 VORBISFILELIB=libvorbisfile.a
@@ -30,17 +30,17 @@ $(VORBISLIB): $(VORBISOBJS)
 	emar cru $@ $(VORBISOBJS) $(LDFLAGS)
 	emranlib $@
 
-$(VORBISFILELIB): $(VORBISOFILEOBJS)
-	emar cru $@ $(VORBISOFILEOBJS) $(LDFLAGS)
+$(VORBISFILELIB): $(VORBISFILEOBJS)
+	emar cru $@ $(VORBISFILEOBJS) $(LDFLAGS)
 	emranlib $@
 
-$(VORBISENCLIB): $(VORBISOENCOBJS)
-	emar cru $@ $(VORBISOENCOBJS) $(LDFLAGS)
+$(VORBISENCLIB): $(VORBISENCOBJS)
+	emar cru $@ $(VORBISENCOBJS) $(LDFLAGS)
 	emranlib $@
 
 clean:
 	rm -f $(VORBISENCLIB)
-	rm -f $(VORBISOENCOBJS)
+	rm -f $(VORBISENCOBJS)
 	rm -f $(VORBISFILELIB)
 	rm -f $(VORBISFILEOBJS)
 	rm -f $(VORBISLIB)
